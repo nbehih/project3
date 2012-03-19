@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project3</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= stylesheet_link_tag stylesheet_selection %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Project 3</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><%= link_to "Baby Shower", baby_path%></li>
+          <li><%= link_to "Birthday", birthday_path %></li>
+          <li><%= link_to "Graduation", graduation_path %></li>
+          <li><%= link_to "Generic", generic_path %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <%= yield %>
+
+
+</body>
+</html>

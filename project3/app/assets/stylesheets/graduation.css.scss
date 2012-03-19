@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+h1
+{
+color:white;
+text-align:center;
+font-family:"Helvetica", Times, serif;
+font-size:20px
+}
+p
+{
+color:FireBrick  ;
+font-family:"Helvetica", Times, serif;
+text-align:center;
+font-size:19px;
+font-style:italic;
+}
+
+body{
+background-image:url('../images/aaa.png');
+background-repeat:no-repeat;
+background-position:center; 
+background-color:#000000;
+}
+form
+{
+color:fireBrick;
+text-align:center;
+font-size:16px;
+font-style:italic;
+font-family:"Helvetica", Times, serif;
+}
